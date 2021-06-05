@@ -1,0 +1,671 @@
+@import url(//db.onlinewebfonts.com/c/180a810d159c3c0f5754bf6e072e6efa?family=FuturaBookC);
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1030px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.header__logo-text {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.header__logo-text a {
+  margin-right: 65px;
+}
+
+.header__logo-text h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #605e5f;
+}
+
+.header__phone a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.main__car {
+  background-image: url(../img/main_car.png);
+  background-size: 100%;
+  height: 690px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.main__car-inner {
+  position: absolute;
+}
+
+.main__car-inner {
+  position: relative;
+  top: 200px;
+}
+
+.main__car-inner h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  color: #fefefe;
+  margin-bottom: 50px;
+}
+
+.main__car-inner a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fefefe;
+  background-color: #e60002;
+  padding: 10px 56px;
+  border: 1px solid #e60002;
+}
+
+.main__car-inner a:hover {
+  background-color: #e5e5e5;
+  border: 1px solid #e60002;
+  color: #e60002;
+}
+
+.amg-gts {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.amg-gts-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amg-gts-text h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 33px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+.speed-amg {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  background-color: #e9e9e9;
+  padding: 9px 43px;
+  margin-bottom: 39px;
+  display: inline-block;
+}
+
+.li-amg-gts {
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #383838;
+  margin-bottom: 65px;
+}
+
+.smg-gts-btn a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 8px 21px;
+  background-color: #e60002;
+  /* margin-right: 3px; */
+}
+
+.smg-gts-btn a:hover {
+  background-color: #e5e5e5;
+  /* border: 1px solid #e60002; */
+  color: #e60002;
+  border: none;
+}
+
+.amg-gts,
+.amg-g,
+.amg-gt-roadster {
+  margin-bottom: 60px;
+}
+
+.servises {
+  background-image: url(../img/foot_btn.png);
+  background-size: cover;
+  height: 890px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.our_servises {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 134px;
+  margin-bottom: 76px;
+}
+
+.servises__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servises__key {
+  max-width: 485px;
+  margin-right: 100px;
+}
+
+.servises__contract {
+  width: 489px;
+}
+
+.servises__key h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.servises__key p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 86px;
+}
+
+.servises__contract h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.servises__contract p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.servises__ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.osoba {
+  margin-bottom: 86px;
+}
+.osoba_1 {
+  margin-bottom: 20px;
+}
+
+.consultation__btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 165px;
+}
+
+.consultation {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 11px 16px;
+  background-color: #e60002;
+}
+
+.consultation:hover {
+  background-color: #e5e5e5;
+  border: 1px solid #e60002;
+  color: #e60002;
+}
+
+.footer__inner {
+  text-align: center;
+}
+
+.footer__img {
+  margin-top: 80px;
+  margin-bottom: 9px;
+}
+
+.email {
+  font-size: 18px;
+  line-height: 23px;
+  color: #383838;
+  margin-bottom: 34px;
+}
+
+.footer__inner a {
+  font-size: 18px;
+  line-height: 23px;
+  color: #383838;
+  margin-bottom: 43px;
+  display: inline-block;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__social img {
+  margin-right: 35px;
+  margin-bottom: 65px;
+}
+
+.img-o {
+  margin-left: 50px;
+}
+
+.capta {
+  font-size: 16px;
+  line-height: 20px;
+  color: #383838;
+  margin-bottom: 80px;
+}
+/* .......................AMG GT 63 S................................................................ */
+
+.main__gt63 {
+  background-image: url(../img/GT-63-S/main__bg.png);
+  background-size: 100% 100%;
+  height: 690px;
+  background-repeat: no-repeat;
+}
+
+.main__gt63__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 375px;
+  top: 500px;
+}
+
+.main__gt63__inner h2 {
+  font-size: 60px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.buy__inner {
+  margin-top: 55px;
+  margin-bottom: 65px;
+  left: calc(50% - 753px / 2 - 0.5px);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buy__inner p {
+  max-width: 755px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #333333;
+}
+
+.p_one span {
+  display: inline-block;
+  margin-top: 17px;
+}
+
+.buy__btn_gt {
+  display: flex;
+  justify-content: center;
+}
+
+.buy__a {
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 9px 56px;
+  background-color: #e60002;
+  margin-bottom: 54px;
+}
+
+.buy__a:hover {
+  background-color: #e5e5e5;
+  border: 1px solid #e60002;
+  color: #e60002;
+}
+
+.gt-63-one {
+  background-image: url(../img/GT-63-S/gt-63-one.png);
+  height: 690px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.gt-63-one__text {
+  /* margin-left: auto;
+  margin-bottom: 50px; */
+  /* margin-right: 10em; */
+  float: right;
+  margin-top: 150px;
+  max-width: 650px;
+  background-color: #fff;
+  padding: 25px 50px;
+}
+
+.gt-63-one__text p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.gt-63-two {
+  background-image: url(../img/GT-63-S/gt-63-two.png);
+  height: 690px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.gt-63-three {
+  background-image: url(../img/GT-63-S/gt-63-three.png);
+  height: 690px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.quesions {
+  background-image: url(../img/GT-63-S/gt-63-four.png);
+  height: 690px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  /* display: inline-block; */
+  align-items: center;
+  text-align: center;
+}
+
+.quesions__inner h2 {
+  font-size: 42px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 19px;
+  margin-top: 200px;
+  display: inline-block;
+}
+
+.quesions__inner h3 {
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 65px;
+}
+
+.quesions__inner a {
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fefefe;
+  padding: 11px 48px;
+  background-color: #e60002;
+}
+
+.quesions__inner a:hover {
+  background-color: #e5e5e5;
+  border: 1px solid #e60002;
+  color: #e60002;
+}
+
+/*...............................Mercedes-AMG G 63............ */
+
+.main__g63 {
+  background-image: url(../img/G-63/main_g-63.png);
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.g-63-one {
+  background-image: url(../img/G-63/g-63-one.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.g-63-two {
+  background-image: url(../img/G-63/g-63-two.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.g-63-three {
+  background-image: url(../img/G-63/g-63-three.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.g-63-quesions {
+  background-image: url(../img/G-63/g-63-four.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  align-items: center;
+  text-align: center;
+}
+
+/* .......................Mercedes-AMG GT Roadster */
+
+.main__gt-raodster {
+  background-image: url(../img/gt-roadster/main-roadster.png);
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.gt-roadster-one {
+  background-image: url(../img/gt-roadster/roadter-one.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.gt-roadster-two {
+  background-image: url(../img/gt-roadster/roadster-two.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.gt-roadster-three {
+  background-image: url(../img/gt-roadster/roadster-three.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+.gt-roadster-quesions {
+  background-image: url(../img/gt-roadster/roadster-four.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(121, 114, 114);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.popup__content {
+  background-color: #fff;
+  color: #000;
+  max-width: 400px;
+
+  text-align: center;
+}
+
+.popup__div__close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popup__close {
+  background-color: #e60002;
+  border-radius: 0px 0px 0px 10px;
+  height: 25px;
+  width: 25px;
+  color: #fff;
+}
+
+.popup__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.popup__p {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-bottom: 45px;
+}
+
+.popup__input {
+  align-items: center;
+  text-align: center;
+}
+
+.popup__content h2 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #a08c8c;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.popup__content input {
+  background: #f2f2f2;
+  border-radius: 20px;
+  width: 329px;
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.popup__content input:focus {
+  outline: none;
+}
+
+.main__input {
+  margin-bottom: 25px;
+}
+
+.popup__btn {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 14px 33px;
+  border-radius: 32.41px;
+  background-color: #e60002;
+  max-width: 174px;
+  margin: 25px auto;
+}
+
+.popup__phone {
+  display: block;
+  font-size: 22px;
+  line-height: 20px;
+  color: #e60002;
+  margin-bottom: 19px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,83 @@
+@media (max-width:1150px){
+    .amg-gts-inner {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .amg-gts-photo{
+        display: flex;
+        justify-content: center;
+    }
+    .amg-gts-text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .servises__inner{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .servises__key{
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .servises{
+        height: auto;
+    }
+}
+@media (max-width:750px){
+    .header__phone{
+        display: none;
+    }
+    .header__logo-text {
+        width: 90%;
+        margin: auto;
+    }
+    .main__car-inner h2 {
+        font-size: 26px;
+    }
+    .smg-gts-btn{
+        display: grid;
+    }
+    .smg-gts-btn a+a{
+        margin-top: 6px;
+    }
+    .amg-gts-photo img{
+        width: 90%;
+        margin: auto;
+    }
+    .main__gt63__inner{
+        display: none;
+    }
+    .main__gt63{
+        background-size: cover;
+        background-position: center;
+    }
+    .servises__contract{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .servises__ul{
+        width: 90%;
+    }
+    .g-63-quesions,.gt-roadster-quesions, .quesions{
+        height: auto;
+        background-size: cover;
+        background-position:center;
+    }
+    .main__g63,.main__gt-raodster{
+        height: 600px;
+        background-size: cover;
+        background-position:center;
+    }
+    .amg-gts-photo{
+        order: 1;
+    }
+    .amg-gts-text{
+        order: 2;
+    }
+}
